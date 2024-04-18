@@ -4,7 +4,7 @@ import cv2
 image_path = 'dog.jpg'
 img = cv2.imread(image_path)
 
-resized_img = cv2.resize(img, None, fx=2, fy=0.5, interpolation=cv2.INTER_LINEAR)
+resized_img = cv2.resize(img, None, fx=1, fy=0.5, interpolation=cv2.INTER_LINEAR)
 cv2.imwrite('resized_dog.jpg', resized_img)
 
 rows, cols = img.shape[:2]
