@@ -29,8 +29,8 @@ def create_difference_image(image1_path, image2_path):
 # 使用例
 if __name__ == "__main__":
     # ２つの画像のパスを指定
-    image1_path = './chrome.png'
-    image2_path = './chrome_aaa.png'
+    image1_path = './tree_only.png'
+    image2_path = './tree_and_cloud.png'
     
     # 差分画像を生成
     create_difference_image(image1_path, image2_path)
